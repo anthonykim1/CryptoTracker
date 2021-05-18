@@ -13,6 +13,9 @@
 		4B68D4B82652F3C40078699C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B68D4B62652F3C40078699C /* Main.storyboard */; };
 		4B68D4BA2652F3C50078699C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B68D4B92652F3C50078699C /* Assets.xcassets */; };
 		4B68D4BD2652F3C50078699C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B68D4BB2652F3C50078699C /* LaunchScreen.storyboard */; };
+		4B68D4C62652F4130078699C /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B68D4C52652F4130078699C /* APICaller.swift */; };
+		4B68D4C9265300690078699C /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B68D4C8265300690078699C /* CryptoTableViewCell.swift */; };
+		4B68D4CC2653038D0078699C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B68D4CB2653038D0078699C /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		4B68D4B92652F3C50078699C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B68D4BC2652F3C50078699C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B68D4BE2652F3C50078699C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B68D4C52652F4130078699C /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		4B68D4C8265300690078699C /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
+		4B68D4CB2653038D0078699C /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				4B68D4B02652F3C40078699C /* AppDelegate.swift */,
 				4B68D4B22652F3C40078699C /* SceneDelegate.swift */,
 				4B68D4B42652F3C40078699C /* ViewController.swift */,
+				4B68D4C8265300690078699C /* CryptoTableViewCell.swift */,
 				4B68D4B62652F3C40078699C /* Main.storyboard */,
 				4B68D4B92652F3C50078699C /* Assets.xcassets */,
 				4B68D4BB2652F3C50078699C /* LaunchScreen.storyboard */,
 				4B68D4BE2652F3C50078699C /* Info.plist */,
+				4B68D4C52652F4130078699C /* APICaller.swift */,
+				4B68D4CB2653038D0078699C /* Models.swift */,
 			);
 			path = CryptoTracker;
 			sourceTree = "<group>";
@@ -140,6 +149,9 @@
 				4B68D4B52652F3C40078699C /* ViewController.swift in Sources */,
 				4B68D4B12652F3C40078699C /* AppDelegate.swift in Sources */,
 				4B68D4B32652F3C40078699C /* SceneDelegate.swift in Sources */,
+				4B68D4CC2653038D0078699C /* Models.swift in Sources */,
+				4B68D4C9265300690078699C /* CryptoTableViewCell.swift in Sources */,
+				4B68D4C62652F4130078699C /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
